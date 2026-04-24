@@ -252,5 +252,7 @@ data/                           ← CIFAR-10 dataset (auto-downloaded by Block 5
 
 ---
 
+## Figure
+<img width="469" height="358" alt="image" src="https://github.com/user-attachments/assets/948dfc20-3db2-4143-8a52-30b57b228487" />
 
 
