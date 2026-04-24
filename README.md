@@ -252,17 +252,5 @@ data/                           ← CIFAR-10 dataset (auto-downloaded by Block 5
 
 ---
 
-## Evaluation Checklist
 
-- ✅ `PrunableLinear`: custom layer with gated weights, gradients flow through both `weight` and `gate_scores`
-- ✅ Sparsity Loss: normalized L1 norm of all sigmoid(gate_scores)
-- ✅ Total Loss = CrossEntropy + λ × SparsityLoss
-- ✅ Training loop with Adam optimizer + CosineAnnealingLR scheduler
-- ✅ 3 lambda values compared (0.5 / 1.5 / 4.0) showing sparsity-vs-accuracy trade-off
-- ✅ Sparsity level reported (% gates below threshold) per epoch and at final evaluation
-- ✅ Gate distribution plot showing bimodal distribution (spike at 0, cluster at 1)
-- ✅ Markdown report with mathematical explanation of L1/sigmoid sparsity mechanism
 
----
-
-*Submitted for Tredence Studio — AI Agents Engineering Team | AI Engineering Internship 2025 Cohort*
